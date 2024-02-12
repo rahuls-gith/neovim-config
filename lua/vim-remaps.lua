@@ -1,5 +1,5 @@
 -- Access NetRW and set relative line numbers in the window
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set('n', "<leader>pv", vim.cmd.Ex)
 
 -- Move selected block of code
 vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
