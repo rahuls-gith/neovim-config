@@ -14,4 +14,5 @@ vim.opt.rtp:prepend(lazypath)
 
 -- Calling lazy.nvim
 require("vim-options")
+require("vim-remaps")
 require("lazy").setup("plugins")

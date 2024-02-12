@@ -1,3 +1,4 @@
+-- Access NetRW and set relative line numbers in the window
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
 
 -- Move selected block of code

@@ -24,6 +24,9 @@ vim.g.mapleader = " "
 opt.nu = true
 opt.relativenumber = true
 
+-- Relative Line Number for NetRW
+vim.g.netrw_bufsettings = 'noma nomod nu rnu nobl nowrap ro'
+
 -- Prevent line wrapping
 opt.wrap = false
 
