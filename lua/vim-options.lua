@@ -18,7 +18,7 @@ opt.listchars = {
 }
 
 -- set leader key
-vim.g.mapleader = ","
+vim.g.mapleader = " "
 
 -- Line numbers
 opt.nu = true
